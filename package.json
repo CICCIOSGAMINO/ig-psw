@@ -1,0 +1,10 @@
+{
+  "name": "ig-psw",
+  "version": "0.0.1",
+  "description": "Instagram Puppeteer Auth Bot",
+  "repository": "https://github.com/CICCIOSGAMINO/ig-psw.git",
+  "author": "@cicciosgamino",
+  "dependencies": {
+    "puppeteer": "^20.7.4"
+  }
+}
