@@ -92,6 +92,9 @@ Run the nodejs instragram bot:
 # start tor
 sudo systemctl restart tor
 
+# install nodejs dependencies
+npm install
+
 # run nodejs bot
 node index.mjs
 ```
