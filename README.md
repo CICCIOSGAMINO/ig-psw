@@ -2,6 +2,8 @@ ig-psw - Puppeteer Auth Bot
 ===========================
 [TOC]
 
+v0.0.3 - 3-07-2023
+
 Run puppeteer on Instagram https://www.instagram.com/accounts/login/ to try to log in with, username and password. The username is set in the code of index.mjs, password are loaded from psw.lst text file and in the file cache.json is saved the count of the password read in the file psw.lst already tested.
 
 So if you want to start from the first line of the file psw.lst you need count: 0 in cache.json
@@ -53,6 +55,9 @@ sudo apt update
 sudo apt upgrade
 
 sudo apt install tor
+
+# start / restart tor process
+sudo systemctl restart tor
 
 # check the version
 tor --version
